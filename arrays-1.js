@@ -11,6 +11,6 @@ function draw() {
 	for (i=0; i < shade.length; i++) {
   fill(shade[i], 100, 100);
   rect(i*width/shade.length, 0, width/shade.length, height);
+	shade[shade.length-1] = mouseY;
 	}
-
 }
